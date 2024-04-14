@@ -1,0 +1,100 @@
+body {
+   background-color: rgb(195, 224, 150);
+}
+
+.navbar {
+   display: flex;
+}
+
+.logo img {
+   height: 100px;
+   width: 100px;
+}
+
+.quick-links {
+   margin-left: 440px;
+   margin-top: 30px;
+   position: relative;
+   background-color: black;
+   padding: 25px 40px;
+   border-radius: 40px;
+   display: inline-block;
+}
+
+.quick-links a {
+   text-decoration: none;
+   margin-right: 40px;
+   font-size: 18px;
+   color: white;
+}
+
+.quick-links a:last-child {
+   margin-right: 0;
+}
+
+.quick-links a:hover {
+   text-decoration: underline;
+   font-size: 22px;
+}
+
+.login {
+   margin-top: 50px;
+   margin-left: 320px;
+}
+
+.login a {
+   text-decoration: none;
+   color: black;
+   font-size:20px;
+}
+
+.login a:hover {
+   text-decoration: underline;
+   font-size: 22px;
+   color: rgb(58, 17, 24);
+}
+
+.content-box {
+   display: flex;
+}
+
+.title {
+   margin-top: 40px;
+   margin-left: 20px;
+   font-size: 30px;
+   color: rgb(58, 17, 24);
+}
+
+.para {
+   font-size: 20px;
+   margin-top: 75px;
+   margin-left: 70px;
+}
+
+.images {
+   display: flex;
+}
+
+.tree {
+   margin-left: 10px;
+   width: 100px;
+   height: 100px;
+   margin-right:20px;
+}
+
+.rabbit{
+   margin-left:80px;
+   width:100px;
+   height:100px;
+   margin-right:80px;
+}
+
+footer{
+   background-color:rgb(27, 35, 3);
+   margin-top:150px;
+}
+
+footer h2, address{
+color:rgb(252, 255, 79);
+margin-left:600px;
+}

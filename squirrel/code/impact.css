@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(177, 192, 158);
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo img {
+    margin-top: 0px;
+    height: 100px;
+    width: 100px;
+}
+
+.quick-links {
+    margin-left: 440px;
+    margin-top: 20px;
+    z-index: 1;
+
+}
+
+.quick-links a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+    color: black;
+    z-index: 1;
+
+}
+
+.quick-links a:last-child {
+    margin-right: 0;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+    font-size: 28px;    
+    color: rgb(58, 17, 24);
+
+}
+
+.login {
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.login a:hover {
+    text-decoration: underline;
+    font-size: 28px;
+    color: rgb(58, 17, 24);
+}
+
+.main-text {
+    position: relative;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    position: relative;
+    z-index: -1;
+}
+
+.video-overlay {
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+.video-overlay h1 {
+    width: 100vh;
+    font-size: 60px;
+    color: rgb(70, 27, 27);
+    margin-left: 180px;
+    margin-right: 200px;
+    margin-top: 500px;
+}
+
+footer{
+    background-color:rgb(27, 35, 3);
+    margin-top:150px;
+ }
+ 
+ footer h2, address{
+ color:rgb(252, 255, 79);
+ margin-left:600px;
+ }
+ 

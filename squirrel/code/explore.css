@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(217, 233, 194);
+ }
+ 
+ 
+ .navbar{
+    display: flex;
+ }
+ 
+ .logo img{
+    height: 100px;
+    width: 100px; 
+ }
+ 
+ .quick-links{
+    margin-left:440px;
+    margin-top: 30px;
+ }
+ 
+ .quick-links a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+    color:black;
+ }
+ 
+ .quick-links a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color:rgb(58, 17, 24);
+ }
+ 
+ .login{
+    margin-top:30px;
+    margin-left: 320px;
+ }
+ 
+ .login a {
+    text-decoration: none;
+    color:black;
+    font-size:18px;
+ }
+ 
+ .login a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color:rgb(58, 17, 24);
+ }
+
+ footer{
+   background-color:rgb(27, 35, 3);
+   margin-top:150px;
+}
+
+footer h2, address{
+color:rgb(252, 255, 79);
+margin-left:600px;
+}
+
