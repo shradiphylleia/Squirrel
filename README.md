@@ -19,3 +19,5 @@ the project now will utilize github actions as of 13 sept,2024.
 
 workflows should be saved in .github/workflows.filename should be descriptive of what the file serves with the extension .yml or yaml
 yaml is the markup language for configuration file.
+
+* the first GitHub actions was setup.will be triggered on each pull request.
