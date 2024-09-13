@@ -28,6 +28,7 @@ yaml is the markup language for configuration file.
 
 - the workflow must contain atleast one event which will trigger the workflow.workflows are reusable.
   - events could be push made to the main branch,issue opened or a release created.
+  - to trigger an event use the on keyword
 - one or more jobs, which will have a series of steps and finally will be exceuted on a runner machine.jobs will run in parallel by default.use needs keyword for dependent jobs.
 - the step will run a script or an action 
 
