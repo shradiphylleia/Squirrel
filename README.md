@@ -21,3 +21,13 @@ workflows should be saved in .github/workflows.filename should be descriptive of
 yaml is the markup language for configuration file.
 
 * the first GitHub actions was setup.will be triggered on each pull request.
+* task at hand:
+  - setting up labels each time a new issue is opened
+  - building and testing pull requests 
+
+
+- the workflow must contain atleast one event which will trigger the workflow.workflows are reusable.
+  - events could be push made to the main branch,issue opened or a release created.
+- one or more jobs, which will have a series of steps and finally will be exceuted on a runner machine.jobs will run in parallel by default.use needs keyword for dependent jobs.
+- the step will run a script or an action 
+
